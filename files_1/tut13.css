@@ -1,0 +1,11 @@
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+}
+
+span{
+    font-weight:bold;
+    font-style: italic;
+    line-height: 1.3em;
+}
+

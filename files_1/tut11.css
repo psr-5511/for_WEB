@@ -1,0 +1,25 @@
+#firstPara{
+    color:brown;
+    background-color: aquamarine;
+}
+
+#secondPara{
+    color:darkblue;
+    background-color: yellow;
+}
+
+.pinkBg{
+    background-color: pink;
+}
+
+.redBg{
+    color: red;
+}
+
+p{
+    color: yellow;
+}
+
+span,footer{
+    background-color: turquoise;
+}

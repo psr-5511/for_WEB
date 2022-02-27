@@ -1,0 +1,16 @@
+.container{
+    background-color: aquamarine;
+    border:3px solid blueviolet;
+
+    padding-top: 75px;
+    padding-bottom: 43px;
+    padding-left: 168px;
+    padding-right: 269px;
+
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 115px;
+    margin-right: 72px;
+
+    border-radius: 35px;
+}
