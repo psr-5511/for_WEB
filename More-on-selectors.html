@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* div p{
+            background-color:rgb(0,0,128);
+            color:orange;
+        }
+
+        div>p{
+            background-color: lightblue;
+            color: white;
+        } */
+
+        div+p{
+            color: white;
+            background-color: #dd6361;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on CSS Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>This is a paragraph.</p>
+
+            <ul>
+                <li class="item">
+                    <p>this is a paragraph inside li and it is not a direct child of div. </p>
+                </li>
+            </ul>
+
+            <p>This is the second paragraph and it will get affected because it is the direct child of div.</p>
+        </div>
+
+        <p>This is third paragraph and it will get affected because it is the direct child of div.</p>
+    </div>
+    <p>This is outermost paragraph and it will not get affected</p>
+</body>
+</html>
